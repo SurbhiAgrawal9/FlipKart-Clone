@@ -45,6 +45,7 @@ border-radius: 2px;
 box-shadow: none;
 font-weight: 600;
 height: 32px;
+margin-left: 15px;
 `
 
 const CustomButtons = () => {
