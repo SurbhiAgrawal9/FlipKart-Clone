@@ -5,6 +5,9 @@ import MidSection from './MidSection'
 import MidSlide from './MidSlide'
 import NavBar from './NavBar'
 import Slide from './Slide'
+import Footer from '../Footer/Footer'
+
+
 
 const Component = styled(Box)`
 padding: 10px;
@@ -26,8 +29,10 @@ const Home = () => {
                 <Slide title="Season's top pics" timer={false} />
                 <Slide title="Top Deals on Accessories " timer={false} /> */}
             </Component>
+            <Footer />
         </>
+
     )
 }
 
-export default Home
+export default Home;
