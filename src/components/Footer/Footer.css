@@ -112,3 +112,8 @@ footer {
     padding-top: 15px;
     line-height: 10px;
 }
+
+.footer-row2-col img {
+    height: 100px;
+    width: 100px;
+}

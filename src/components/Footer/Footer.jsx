@@ -121,7 +121,7 @@ const Footer = () => {
                         <p>© 2021 Flipkart Clone. All Rights Reserved.</p>
                     </div>
                     <div className="footer-row2-col">
-                        <img src="./flipkart image/payment.png" alt="payment" />
+                        <img src="./src/payment.png" alt="payment" />
                     </div>
                 </div>
             </footer>
