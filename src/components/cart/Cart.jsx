@@ -42,7 +42,7 @@ const Cart = () => {
                     state.map((item, index) => {
                         return (
                             <div className="onecomp">
-                                <img src={item.image} alt="snapdeal" />
+                                <img src={item.image} alt="flipkart" />
                                 <div className="desccomp">
                                     <h4>{item.title}</h4>
                                     <p>Rating : {item.rating.rate}</p>
