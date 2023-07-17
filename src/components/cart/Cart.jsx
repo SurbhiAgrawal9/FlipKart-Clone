@@ -71,7 +71,6 @@ const Cart = () => {
     return (
         <div className='main'>
             <div className='container'>
-<<<<<<< HEAD
                 {state.length > 0 ? (
                     state.map((item, index) => (
                         <div className='onecomp' key={index}>
@@ -83,26 +82,6 @@ const Cart = () => {
                                 </SmallText>
                                 <p>Rating: {item.rating.rate}</p>
                                 <h4>${item.price}</h4>
-=======
-                {
-                    state.map((item, index) => {
-                        return (
-                            <div className="onecomp">
-                                <img src={item.image} alt="flipkart" />
-                                <div className="desccomp">
-                                    <h4>{item.title}</h4>
-                                    <p>Rating : {item.rating.rate}</p>
-                                    <h4>${item.price}</h4>
-                                </div>
-                                {/* <div className="count">
-                                    <button onClick={() => dispatch1({ type: 'DECREMENT', payload: item })}>-</button>
-                                    <span>{state1.count}</span>
-                                    <button onClick={() => dispatch1({ type: 'INCREMENT', payload: item })}>+</button>
-                                </div> */}
-                                <h1 className='dele' onClick={() => dispatch({ type: 'REMOVE', payload: item })}>
-                                    <Button variant="contained">Delete</Button>
-                                </h1>
->>>>>>> d1cab7c4d8cf2e525ebb4b99b40af9558c315421
                             </div>
                             <div className='count'>
                                 <button onClick={() => handleDecrement(item)}>-</button>
@@ -130,8 +109,4 @@ const Cart = () => {
     );
 };
 
-<<<<<<< HEAD
 export default Cart;
-=======
-export default Cart
->>>>>>> d1cab7c4d8cf2e525ebb4b99b40af9558c315421
