@@ -5,9 +5,7 @@ import MidSection from './MidSection'
 import MidSlide from './MidSlide'
 import NavBar from './NavBar'
 import Slide from './Slide'
-import Footer from '../Footer/Footer'
-
-
+import Footer from '../Footer/Footer.jsx'
 
 const Component = styled(Box)`
 padding: 10px;
@@ -23,7 +21,7 @@ const Home = () => {
                 <MidSlide title="Discounts for You" timer={true} />
                 <MidSection />
                 <Slide title="Suggesting Items" timer={false} />
-                {/* <Slide title="Top Selection" timer={false} /> */}
+                <Slide title="Top Selection" timer={false} />
                 {/* <Slide title="Recomended Items" timer={false} />
                 <Slide title="Trending Offers" timer={false} />
                 <Slide title="Season's top pics" timer={false} />
@@ -31,8 +29,7 @@ const Home = () => {
             </Component>
             <Footer />
         </>
-
     )
 }
 
-export default Home;
+export default Home
