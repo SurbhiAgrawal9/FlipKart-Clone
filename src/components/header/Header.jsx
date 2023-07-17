@@ -39,6 +39,7 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 
 const CustomButtonWrapper = styled('span')(({ theme }) => ({
     margin: '0 5% 0 auto',
+    marginLeft: '20px',
     [theme.breakpoints.down('md')]: {
         display: 'none'
     }
@@ -59,7 +60,7 @@ const Header = () => {
     }
 
     const list = () => (
-        <Box style={{width: 200}} onClick={handleClose}>
+        <Box style={{ width: 200 }} onClick={handleClose}>
             <List>
                 <listItem button>
                     <CustomButtons />
