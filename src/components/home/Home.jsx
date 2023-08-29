@@ -5,7 +5,7 @@ import MidSection from './MidSection'
 import MidSlide from './MidSlide'
 import NavBar from './NavBar'
 import Slide from './Slide'
-import Footer from '../Footer/Footer'
+import Footer from '../footer/Footer'
 
 const Component = styled(Box)`
 padding: 10px;
